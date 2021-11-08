@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    com.example.userservice.client: DEBUG
+
+
+environments:
+  internal-server-url: http://localhost:8080
